@@ -1,0 +1,35 @@
+@blue:				#33b5e5;
+
+@base:					@blue;
+@base-light:			lighten( @base, 30% );
+@base-dark:				darken( @base, 15% );
+
+@link-color:			@base;
+
+@component-active-bg:	@base;
+
+@input-border-focus:	@base;
+
+@btn-success-bg:		lighten(@base, 7%);
+
+@state-success-bg:		@base-light;
+@state-success-text:	@base-dark;
+
+// Custom fonts
+@import url(http://fonts.googleapis.com/css?family=Rancho);
+
+// Homepage primary title
+.home.page {
+	.jumbotron {
+		h1 {
+			font-family: 'Rancho', cursive, 'Roboto Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		}
+	}
+}
+
+// Logo section - Site title
+#logo {
+	h2 {
+		font-family: 'Rancho', cursive, 'Roboto Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	}
+}
