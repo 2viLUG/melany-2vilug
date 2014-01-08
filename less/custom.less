@@ -15,6 +15,9 @@
 @state-success-bg:		@base-light;
 @state-success-text:	@base-dark;
 
+@icon-font-path:		"../melany/lib/bootstrap/fonts/";
+@font-path-base:		'../melany/fonts/';
+
 // Custom fonts
 @import url(http://fonts.googleapis.com/css?family=Rancho);
 
@@ -32,4 +35,12 @@
 	h2 {
 		font-family: 'Rancho', cursive, 'Roboto Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	}
+}
+
+// Fix Glyphicon Bookmark issue
+.glyphicon-bookmark:before {
+	content:"🔖";
+}
+.glyphicon-calendar:before {
+	content:"📅";
 }
